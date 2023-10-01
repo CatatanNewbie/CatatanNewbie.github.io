@@ -2,19 +2,15 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-*{
-    margin: 0;
-    padding: 0;
-}
 body {
     @apply m-0 p-0 font-sans;
     background-image: url('banner2.jpg'); /* Ganti dengan URL atau path gambar Anda */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh; /* Menetapkan tinggi 100% dari viewport height */
+    min-height: 100vh; /* Menetapkan tinggi 100% dari viewport height */
     margin: 0; 
-    overlow: hidden;
+    box-sizing: border-box
 }
 
 header {
