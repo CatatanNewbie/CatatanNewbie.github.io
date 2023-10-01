@@ -4,10 +4,11 @@
 
 body {
     @apply m-0 p-0 font-sans;
-    background-image: url('banner2.jpg') no-repeat center center; /* Ganti dengan URL atau path gambar Anda */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url(banner2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     min-height: 100vh; /* Menetapkan tinggi 100% dari viewport height */
     margin: 0 auto; 
     box-sizing: border-box;
