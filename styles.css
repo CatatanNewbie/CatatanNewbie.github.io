@@ -13,7 +13,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh; /* Menetapkan tinggi 100% dari viewport height */
-    margin: 0; /
+    margin: 0; 
+    overlow: hidden;
 }
 
 header {
