@@ -7,6 +7,7 @@ body {
     background-color: rgb(40, 67, 156);
     max-width: auto;
     height: 100%;
+    margin: 0 auto;
 }
 
 header {
